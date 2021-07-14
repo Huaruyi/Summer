@@ -23,6 +23,6 @@ public class IfStmnt extends ASTList {
 
     @Override
     public String toString() {
-        return "if " + condition() + " " + thenBlock() + "else "+ elseBlock() + ")";
+        return "(if " + condition() + " " + thenBlock() + " else "+ elseBlock() + ")";
     }
 }

@@ -35,10 +35,12 @@ public class ASTLeaf extends ASTree{
     public String location() {
         return "at line " + token.getLineNumber();
     }
+
     @Override
     public String toString() {
         return token.getText();
     }
+
     public Token token() {
         return token;
     }

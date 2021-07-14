@@ -2,6 +2,10 @@ package test;
 
 import summer.*;
 
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author Hua Ruyi
  * @version 1.0

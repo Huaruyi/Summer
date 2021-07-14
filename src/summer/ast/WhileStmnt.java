@@ -11,6 +11,7 @@ public class WhileStmnt extends ASTList {
     public WhileStmnt(List<ASTree> list) {
         super(list);
     }
+
     public ASTree condition() {
         return child(0);
     }
@@ -20,6 +21,6 @@ public class WhileStmnt extends ASTList {
 
     @Override
     public String toString() {
-        return "while " + condition() + " " + body() + ")";
+        return "(while " + condition() + " " + body() + ")";
     }
 }
